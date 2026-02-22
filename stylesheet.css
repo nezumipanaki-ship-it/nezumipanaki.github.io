@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  フォントファミリー: "ヒラギノ角ゴシック ProN";
+}
+
+a {
+  テキスト装飾: なし;
+}
+
+.container {
+  幅: 100%;
+  パディング: 0 15px;
+  マージン: 0 自動;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(top.png);
+  背景サイズ: カバー;
+  色: 白;
+  テキスト配置: 中央;
+}
+
+.top-wrapper h1 {
+  不透明度: 0.7;
+  フォントサイズ: 45px;
+  文字間隔: 5px;
+}
+
+.top-wrapper p {
+  不透明度: 0.7;
+  フォントサイズ: 16px;
+  下部マージン: 40px;
+}
+
+.btn-wrapper {
+  テキスト配置: 中央;
+}
+
+.btn-wrapper p {
+  margin-bottom: 20px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  背景色: #3b5998;
+  右余白: 10px;
+}
+
+.twitter {
+  背景色: #55acee;
+}
+
+.btn {
+  パディング: 8px 24px;
+  色: 白;
+  表示: インラインブロック;
+  不透明度: 0.8;
+  境界線の半径: 4px;
+  テキスト配置: 中央;
+}
+
+.btn:hover {
+  不透明度: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+ヘッダー {
+  高さ: 65px;
+  幅: 100%;
+  背景色: RGBA(34,49,52,0.9);
+  位置:固定;
+  上: 0;
+  zインデックス: 10;
+}
+
+.logo {
+  幅: 124px;
+  上余白: 20px;
+}
+
+.header-left {
+  フロート: 左;
+}
+
+.header-right {
+  float: right;
+  margin-right: -25px;
+}
+
+.header-right a {
+  行の高さ: 65px;
+  パディング: 0 25px;
+  色: 白;
+  表示: ブロック;
+  フロート: 左;
+  遷移: すべて 0.5 秒;
+}
+
+.header-right a:hover {
+  background-color: rgba(255,255,255,0.3);
+}
+
+.lesson-wrapper {
+  高さ: 580px;
+  パディング下部: 80px;
+  左パディング: 5%;
+  右パディング: 5%;
+  背景色: #f7f7f7;
+  テキスト配置: 中央;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.lesson {
+  フロート: 左;
+  width: 25%;
+}
+
+.lesson-icon {
+  位置: 相対;
+}
+
+.lesson-icon p {
+  位置: 絶対;
+  上位: 37%
+  幅: 100%;
+  色: 白;
+}
+
+.text-contents {
+  幅: 80%;
+  表示: インラインブロック;
+  上余白: 15px;
+  フォントサイズ: 13px;
+  色: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  パディング下部: 80px;
+  テキスト配置: 中央;
+}
+
+.message {
+  パディング: 15px 40px;
+  背景色: #5dca88;
+  カーソル: ポインタ;
+  ボックスの影: 0px 7px #1a7940;
+}
+
+.message:active {
+  位置: 相対;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  幅: 125px;
+}
+
+フッター p {
+  色: #b3aeb5;
+  フォントサイズ: 12px;
+}
+
+フッター {
+  上部のパディング: 30px;
+  パディング下部: 20px;
+}
+
+.menu-icon {
+  色: 白;
+  float: right;
+  フォントサイズ: 25px;
+  パディング: 21px 0;
+  表示: なし;
+}
+
+.clear {
+  clear: left;
+}
+
+@media all and (max-width: 1000px) {
+  。レッスン {
+    幅: 50%;
+    下部マージン: 50px;
+  }
+
+  .lesson-wrapper {
+    高さ: 990px​​;
+  }
+
+  フッター {
+    テキスト配置: 中央;
+  }
+}
+
+@media all および (最大幅: 750px) {
+  .top-wrapper h1 {
+    フォントサイズ: 32px;
+  }
+
+  .heading h2 {
+    フォントサイズ: 20px;
+  }
+}
+
+@media all および (最大幅: 670px) {
+  .header-right {
+    表示: なし;
+  }
+
+  .メニューアイコン {
+    表示: ブロック;
+  }
+
+  .top-wrapper .btn {
+    幅: 100%;
+  }
+
+  .twitter {
+    上マージン: 10px;
+  }
+
+  .トップラッパー{
+    テキスト配置: 左;
+  }
+
+  .top-wrapper h1 {
+    フォントサイズ: 24px;
+  }
+
+  .top-wrapper p {
+    フォントサイズ: 14px;
+  }
+
+  。レッスン {
+    幅: 100%;
+  }
+
+  .lesson-wrapper {
+    高さ: 1700px;
+  }
+
+  .メッセージラッパー .btn {
+    幅: 100%;
+  }
+}
